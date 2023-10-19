@@ -1,3 +1,9 @@
+<?php
+if(isset($_POST['submit']))
+{
+    parei 8:09
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,7 +87,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="">
+        <form action="formulario.php" method=POST>
             <fieldset>
                 <legend><b>Fórmulário de Clientes</b></legend>
                 <br>
