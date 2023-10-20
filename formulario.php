@@ -1,7 +1,10 @@
 <?php
 if(isset($_POST['submit']))
 {
-    parei 8:09
+    print_r($_POST['nome']);
+    print_r($_POST['email']);
+    print_r($_POST['telefone']);
+    
 }
 ?>
 <!DOCTYPE html>
